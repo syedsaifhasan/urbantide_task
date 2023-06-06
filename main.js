@@ -12,7 +12,7 @@ const host = '0.0.0.0';
 // postgres docker container connection
 const connection = new Pool({
     user: 'postgres',
-    host: 'localhost',
+    host: '127.0.0.1',
     database: 'postgres',
     port: 5432,
 })

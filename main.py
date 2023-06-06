@@ -1,7 +1,6 @@
 import psycopg2
 import pandas as pd
 
-
 def detect_outliers(data):
     query_column = 'value';
     q1 = data[query_column].quantile(0.25)
